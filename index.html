@@ -4,28 +4,18 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width">
-		<title>MRT Station Lookup</title>
+		<title>台北捷運 App</title>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="script.js"></script>
 	</head>
 
 	<body>
-
-		<div class="top">
-			<div id="mainTitle">MRT Station Lookup</div>
-			<div class='searchContainer'>
-
-				<input id="query" type="text" value="BR14" placeholder='Enter a station code like BR14'></input>
-				<button id="search">GO</button>
-				
-			</div>
-		</div>
-
-		<div class="main">
-			<div id="weatherResults"></div>
-		</div>
-
-		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-		<script src="script.js"></script>
+		<input id="query" type="text" value="BR14" placeholder='Enter a station code like BR14'></input>
+		<button id="search">GO</button>
+		<button id="get_nearest_station">See nearest station</button>
+		<div id="dynamicContent"></div>
+	</div>
 
 	</body>
 </html>

@@ -1,88 +1,26 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
-	font-size: 24px;
+input {
+	width      : 40%;
+	font-size  : 24px;
 }
 
-.top{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: rgb(235, 240, 255);
-	height: 200px;
+button {
+	font-size  : 24px;
+	width      : 20%;
 }
 
-.main{
-	margin-top: 200px;
-	border-style: solid;
-	border-color: rgb(50,50,50);
-	border-width: 0 0 2px;
+.setBorder {
+	border-bottom: 1px solid black;
 }
 
-#mainTitle{
-	width: 100%;
-	margin: 20px 0 5px;
+.smallText {
 	text-align: center;
-	font-size: 1.5em;
+	width     : 100%;
+	padding   : 20px 0 2px;
 }
 
-.searchContainer{
-	width: 300px;
-	margin: 30px auto;
-}
-
-input{
-	width: 70%;
-	font-size: 24px;
-	line-height: 30px;
-}
-
-button{
+.bigText {
+	font-size : 3em;
 	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
-	width: 20%;
-/*	height: 30px;*/
-	margin-top: 10px;
-}
-
-#weatherResults{
-	width: 100%;
-}
-.setBorder{
-	border-style: solid;
-	border-color: rgb(50,50,50);
-	border-width: 3px 0 1px; 
-}
-.weatherCity{
-	text-align: center;
-	width: 100%;	
-	padding: 20px 0 2px;
-}
-.weatherData{
-	font-size: 5em;
-	text-align: center;
-	width: 100%;
-	padding: 2px 0 20px;
-}
-
-/*Background Colors*/
-.redBg{
-	background-color: rgb(200,100,100);
-}
-.orangeBg{
-	background-color: rgb(255, 185, 0)
-}
-.yellowBg{
-	background-color: rgb(245,210,0);
-}
-.greenBg{
-	background-color: rgb(120,225,100);
-}
-.blueBg{
-	background-color: rgb(95,190,230);
-}
-.grayBg{
-	background-color: rgb(185,185,185);
+	width     : 100%;
+	padding   : 2px 0 20px;
 }
